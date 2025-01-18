@@ -1,20 +1,20 @@
 ---
 title: Welcome
 tags:
-- tag1
-- tag2
+- EGR 314
+- M/W 9AM
 ---
 
 ## Hello, my name is Marcus Perez
 
 * I am a Robotics Major
-* Student in 9AM class on M/W schedule
-* 
+* Start of Senior Year
 
-name | description
------|------------
-Mark | fun
-Ben  | silly
+Hobbies    | Interests
+-----------|-------------------------
+Gaming     | Robots
+Volleyball | Science and Engineering
+Reading    | Food
 
 ### Subheading
 
