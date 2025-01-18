@@ -7,8 +7,9 @@ tags:
 
 ## Hello, my name is Marcus Perez
 
-* List item 1
-* List item 2
+* I am a Robotics Major
+* Student in 9AM class on M/W schedule
+* 
 
 name | description
 -----|------------
