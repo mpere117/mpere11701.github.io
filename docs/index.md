@@ -18,4 +18,7 @@ Ben  | silly
 ### Subheading
 
 1. step one
-1. step two
+2. step two
+
+1. number one
+2. number two
