@@ -1,8 +1,6 @@
 ---
 title: Welcome
-tags:
-- EGR 314
-- M/W 9AM
+tags: EGR 314, M/W 9AM
 ---
 
 ## Hello, my name is Marcus Perez
