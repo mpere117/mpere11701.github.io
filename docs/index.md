@@ -1,5 +1,5 @@
 ---
-title: Personal Homepage
+Title: Personal Homepage
 Class: EGR 314 Spring 2025
 Class Time: M/W 9AM
 ---
