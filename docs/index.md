@@ -1,9 +1,9 @@
-
 ---
 Title: Personal Homepage
-Class: EGR 314 Spring 2025
-Class Time: M/W 9AM
 ---
+Class               | Class Time
+--------------------|-----------
+EGR 314 Spring 2025 | M/W 9AM
 
 ## Hello, my name is Marcus Perez
 
