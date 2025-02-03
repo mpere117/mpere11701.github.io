@@ -1,3 +1,4 @@
+
 ---
 Title: Personal Homepage
 Class: EGR 314 Spring 2025
@@ -8,9 +9,10 @@ Class Time: M/W 9AM
 
 * I am a Robotics Major
 * Start of Senior Year
+* 
 
 Hobbies    | Interests
 -----------|-------------------------
 Gaming     | Robots
-Volleyball | Science and Engineering
-Reading    | Food
+Sports     | Science and Engineering
+Reading    | Cooking
