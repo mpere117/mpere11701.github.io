@@ -14,11 +14,3 @@ Hobbies    | Interests
 Gaming     | Robots
 Volleyball | Science and Engineering
 Reading    | Food
-
-### Subheading
-
-1. step one
-2. step two
-
-1. number one
-2. number two
