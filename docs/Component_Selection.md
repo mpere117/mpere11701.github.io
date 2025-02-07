@@ -5,7 +5,7 @@ title: Component Selection
 Table1. ESP32
 | Solution         |      Pros      |      Cons       |
 | ------------------ | ---------------- | ----------------- |
-| Option 1: ![ESP32-S3]()                 |                |                 | 
+| <img src="static/ESP32-S3-WROOM-1.jpg" alt="ESP32-S3" width="175px" height="175px"> <ul><li>Option 1 - ESP32-S3-WROOM-1</li><li>Price - $2.95</li><li>[Link](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639) </li></ul> |                |                 | 
 |                  |                |                 |
 |                  |                |                 |
 
