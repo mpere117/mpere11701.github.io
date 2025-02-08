@@ -12,17 +12,19 @@ Table1. ESP32
 
 **Choice:** - Option 1
 
-**Rationale:** - 
+**Rationale:** - We chose the first one since we are the most familiar with the ESP32, along with the multiple GPIO pins it has which would be the largest along with the most UART pins needed for my personal subsytem of the internet connection to our product and mobile phones. 
 
-| **Solution**                                                                                                                                                                                             |**Pros**                                                      |**Cons**                                                      |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![](static/First-Vreg.png) <ul><li>Option 1 - LM3671MF-3.3/NOPB</li><li>Price - $1.56</li><li>[Link](https://www.digikey.com/en/products/detail/texas-instruments/LM3671MF-3-3-NOPB/1590062) </li></ul>  | <ul><li>Bullet 1</li><li>Bullet 2</li><li>Bullet 3</li></ul> | <ul><li>Bullet 1</li><li>Bullet 2</li><li>Bullet 3</li></ul> | 
-| ![](static/Second-Vreg.png) <ul><li>Option 2 - TLV61048DBVR</li><li>Price - $0.63</li><li>[Link](https://www.digikey.com/en/products/detail/texas-instruments/TLV61048DBVR/10715594)</li></ul>           | <ul><li>Bullet 1</li><li>Bullet 2</li><li>Bullet 3</li></ul> | <ul><li>Bullet 1</li><li>Bullet 2</li><li>Bullet 3</li></ul> |
-| ![](static/Third-Vreg.png) <ul><li>Option 3 - TPS62082DSGR</li><li>Price - $1.55</li><li>[Link](https://www.digikey.com/en/products/detail/texas-instruments/TPS62082DSGR/2797959)</li></ul>             | <ul><li>Bullet 1</li><li>Bullet 2</li><li>Bullet 3</li></ul> | <ul><li>Bullet 1</li><li>Bullet 2</li><li>Bullet 3</li></ul> |
+Table2. Voltage Regulator
+
+| **Solution**                                                                                                                                                                                             |**Pros**                                                                                                                       |**Cons**                                                                                                                       |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| ![](static/First-Vreg.png) <ul><li>Option 1 - LM3671MF-3.3/NOPB</li><li>Price - $1.56</li><li>[Link](https://www.digikey.com/en/products/detail/texas-instruments/LM3671MF-3-3-NOPB/1590062) </li></ul>  | <ul><li>Output type is fixed to 3.3V</li><li>To be used as a Step Down Function</li><li>Dependable for High voltage</li></ul> | <ul><li>Max Imput Voltage of 5.5V</li><li>High Operating Temp (Gets hot)</li><li>One output for Voltage End</li></ul>         | 
+| ![](static/Second-Vreg.png) <ul><li>Option 2 - TLV61048DBVR</li><li>Price - $0.63</li><li>[Link](https://www.digikey.com/en/products/detail/texas-instruments/TLV61048DBVR/10715594)</li></ul>           | <ul><li>Lowest Frequency</li><li>Durable Switching Mechanism</li><li>Lowest cost of Three</li></ul>                           | <ul><li>Output type is not fixed to 3.3V (Adjustable)</li><li>High Current 3.7A</li><li>Higher Cost</li></ul>                 |
+| ![](static/Third-Vreg.png) <ul><li>Option 3 - TPS62082DSGR</li><li>Price - $1.55</li><li>[Link](https://www.digikey.com/en/products/detail/texas-instruments/TPS62082DSGR/2797959)</li></ul>             | <ul><li>Output type is fixed to 3.3V</li><li>Highest Input Voltage of 6V</li><li>Current Output 1.2A</li></ul>                | <ul><li>Difficult Soldering</li><li>Connection to Eight Pins makes difficulty of Datasheet Pins</li><li>Higher Cost</li></ul> |
 
 **Choice:** - Option 1
 
-**Rationale:** - 
+**Rationale:** - The first one is the easiest to solder with it having 5 pins total comapred to the six of the second choice and eight plus bottom pad of the third choice, we also chose this one due to its advantages of lowest current of 600mA and a fixed voltage of 3.3 to not worry about going over the limit.
 
 | ESP Info                                      | Answer                                                                                                                   | Help                                                                                                      |
 | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- |
