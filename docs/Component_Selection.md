@@ -48,7 +48,7 @@ Table2. Voltage Regulator
 | Module         | # Available | Needed | Associated Pins (or * for any) |
 | -------------- | ----------- | ------ | ------------------------------ |
 | UART           | 4           | 4      | RX0/2, TX0/2                   |
-| external SPI\* | 12          | 2      | N/A                            |
+| external SPI\* | 12          | 0      | N/A                            |
 | I2C            | 36          | 4      | GPIO6, GPIO8, GPIO10, GPIO12   |
 | GPIO           | 36          | 1      | GPIO4, GPIO6                   |
 | ADC            | 18          | 0      | N/A                            |
