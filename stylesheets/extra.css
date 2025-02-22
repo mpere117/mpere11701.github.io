@@ -10,3 +10,9 @@ blockquote{
         color: var(--md-typeset-color);
     }
 }
+
+:root  > * {
+    --md-primary-fg-color:        #B01F1F;
+    --md-primary-fg-color--light: #B01F1F;
+    --md-primary-fg-color--dark:  #B01F1F;
+  }
