@@ -1,12 +1,9 @@
 ---
-Title: Personal Homepage
+title: Home Page - Marcus Perez
 ---
 
-Class               | Class Time
---------------------|-----------
-EGR 314 Spring 2025 | M/W 9AM
-
-## Hello, my name is Marcus Perez. This is my Individual website for my EGR 314 class this Spring 2025 semester
+## **Welcome to my individual website for EGR 314**
+Team Website Page - [Link](https://asu-egr314-2025-s-201.github.io/)
 
 Assignments         | Links
 --------------------|-------------------------
