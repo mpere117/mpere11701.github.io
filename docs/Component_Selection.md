@@ -2,7 +2,7 @@
 title: Component Selection
 ---
 
-Table1. ESP32
+**Table1. ESP32**
 
 | **Solution**                                                                                                                                                                                             |**Pros**                                                                                                                                                      |**Cons**                                                                                                            |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
@@ -14,7 +14,7 @@ Table1. ESP32
 
 **Rationale:** - We chose the first one since we are the most familiar with the ESP32, along with the multiple GPIO pins it has which would be the largest along with the most UART pins needed for my personal subsytem of the internet connection to our product and mobile phones. 
 
-Table2. Voltage Regulator
+**Table2. Voltage Regulator**
 
 | **Solution**                                                                                                                                                                                             |**Pros**                                                                                                                       |**Cons**                                                                                                                       |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
@@ -26,13 +26,13 @@ Table2. Voltage Regulator
 
 **Rationale:** - The first one is the easiest to solder with it having 5 pins total comapred to the six of the second choice and eight plus bottom pad of the third choice, we also chose this one due to its advantages of lowest current of 600mA and a fixed voltage of 3.3 to not worry about going over the limit.
 
-Table3. Push Button
+**Table3. Push Button**
 
-| **Solution**                                                                                                                                                                                                                        |**Pros**                                                                                                                          |**Cons**                                                                                         |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| ![](static/First-Vreg.png) <ul><li>Option 1 - PTS636SM43SMTR LFS</li><li>Price - $0.18</li><li>[Link](https://www.digikey.com/en/products/detail/c-k/PTS636SM43SMTR-LFS/10071723) </li></ul>                                        | <ul><li>Push button is fixed to OFF-MOM</li><li>Cheap price, can be bought in bulk</li><li>Easy soldering component</li></ul>    | <ul><li>Long Delivery Time</li><li>Non Illuminating Button</li><li>Small package size</li></ul> | 
-| ![](static/Second-Vreg.png) <ul><li>Option 2 - FSM2JMTR</li><li>Price - $0.37</li><li>[Link](https://www.digikey.com/en/products/detail/te-connectivity-alcoswitch-switches/FSM2JMTR/1201456)</li></ul>                             | <ul><li>Push button is fixed to OFF-MOM</li><li>Durable Switching Mechanism</li><li>Cheap price, can be bought in bulk</li></ul> | <ul><li>Long Delivery Time</li><li>Non Illuminating Button</li><li>Small package size</li></ul> |
-| ![](static/Third-Vreg.png) <ul><li>Option 3 - TS09-63-25-WT-160-SMT-TR</li><li>Price - $0.23</li><li>[Link](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/TS09-63-25-WT-160-SMT-TR/15839066)</li></ul>   | <ul><li>Push button is fixed to OFF-MOM</li><li>Cheap price, can be bought in bulk</li><li>Decent button size</li></ul>          | <ul><li>Long Delivery Time</li><li>Non Illuminating Button</li><li>Small package size</li></ul> |
+| **Solution**                                                                                                                                                                                                                         |**Pros**                                                                                                                          |**Cons**                                                                                             |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| ![](static/FirstButton.jpg) <ul><li>Option 1 - PTS636SM43SMTR LFS</li><li>Price - $0.18</li><li>[Link](https://www.digikey.com/en/products/detail/c-k/PTS636SM43SMTR-LFS/10071723) </li></ul>                                        | <ul><li>Push button is fixed to OFF-MOM</li><li>Cheap price, can be bought in bulk</li><li>Easy soldering component</li></ul>    | <ul><li>Long Delivery Time</li><li>Non Illuminating Button</li><li>Small package size</li></ul>     | 
+| ![](static/SecondButton.jpg) <ul><li>Option 2 - FSM2JMTR</li><li>Price - $0.37</li><li>[Link](https://www.digikey.com/en/products/detail/te-connectivity-alcoswitch-switches/FSM2JMTR/1201456)</li></ul>                             | <ul><li>Push button is fixed to OFF-MOM</li><li>Durable Switching Mechanism</li><li>Cheap price, can be bought in bulk</li></ul> | <ul><li>Long Delivery Time</li><li>Difficult undersoldering</li><li>Smallest package size</li></ul> |
+| ![](static/ThirdButton.jpg) <ul><li>Option 3 - TS09-63-25-WT-160-SMT-TR</li><li>Price - $0.23</li><li>[Link](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/TS09-63-25-WT-160-SMT-TR/15839066)</li></ul>   | <ul><li>Push button is fixed to OFF-MOM</li><li>Cheap price, can be bought in bulk</li><li>Decent button size</li></ul>          | <ul><li>Long Delivery Time</li><li>Non Illuminating Button</li><li>Small package size</li></ul>     |
 
 **Choice:** - Option 1
 
