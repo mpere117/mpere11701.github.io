@@ -1,1 +1,1 @@
-![](static/IndividualBlockDiagramUpdated.drawio.png)
+![](static/UpdatedBlockDiagram.drawio.png)
