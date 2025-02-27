@@ -10,4 +10,4 @@ title: Schematic/Power Budget
 [Schematic ZIP](folder1/Individual_Schematic_V1.zip)
 
 ## Power Budget
-![](folder1/Updated_Power_Budget.pdf)
+![](folder1/UpdatedPB.pdf)
