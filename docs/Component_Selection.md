@@ -2,7 +2,7 @@
 title: Component Selection
 ---
 
-**Table1. ESP32**
+## **Table1. ESP32**
 
 | **Solution**                                                                                                                                                                                             |**Pros**                                                                                                                                                      |**Cons**                                                                                                            |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
@@ -14,7 +14,7 @@ title: Component Selection
 
 **Rationale:** - We chose the first one since we are the most familiar with the ESP32, along with the multiple GPIO pins it has which would be the largest along with the most UART pins needed for my personal subsytem of the internet connection to our product and mobile phones. 
 
-**Table2. Voltage Regulator**
+## **Table2. Voltage Regulator**
 
 | **Solution**                                                                                                                                                                                             |**Pros**                                                                                                                       |**Cons**                                                                                                                       |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
@@ -26,7 +26,7 @@ title: Component Selection
 
 **Rationale:** - The first one is the easiest to solder with it having 5 pins total comapred to the six of the second choice and eight plus bottom pad of the third choice, we also chose this one due to its advantages of lowest current of 600mA and a fixed voltage of 3.3 to not worry about going over the limit.
 
-**Table3. Push Button**
+## **Table3. Push Button**
 
 | **Solution**                                                                                                                                                                                                                         |**Pros**                                                                                                                          |**Cons**                                                                                             |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -38,6 +38,7 @@ title: Component Selection
 
 **Rationale:** - The first choice was the best option with the ability to be soldered easier than the other two options along with being the most noticible button with the dark design and use.
 
+## **Table4. ESP32 Model**
 
 | ESP Info                                      | Answer                                                                                                                   | Help                                                                                                      |
 | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- |
