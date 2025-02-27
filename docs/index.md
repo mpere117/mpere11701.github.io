@@ -1,8 +1,8 @@
 ---
-title: Home Page - Marcus Perez
+title: Home Page - HQTT/WIFI Subsystem
 ---
 
-## **Welcome to my individual website for EGR 314**
+## **Hello my name is Marcus Perez, welcome to my individual website for EGR 314**
 Team Website Page - [Link](https://asu-egr314-2025-s-201.github.io/)
 
 Assignments         | Links
