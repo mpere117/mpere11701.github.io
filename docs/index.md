@@ -1,5 +1,5 @@
 ---
-title: Home Page - HQTT/WIFI Subsystem
+title: Home Page - MQTT/WIFI Subsystem
 ---
 
 ## **Hello my name is Marcus Perez, welcome to my individual website for EGR 314**
@@ -11,3 +11,4 @@ Block Diagram       | [Link](https://mpere117.github.io/mpere11701.github.io/Blo
 Component Selection | [Link](https://mpere117.github.io/mpere11701.github.io/Component_Selection/)
 Schematic           | [Link](https://mpere117.github.io/mpere11701.github.io/Individual_Schematic/)
 Bill of Materials   | [Link](https://mpere117.github.io/mpere11701.github.io/Bill_Of_Materials/)
+API                 | [Link](https://mpere117.github.io/mpere11701.github.io/API/)
