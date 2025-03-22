@@ -20,7 +20,17 @@ title: API
 |Max Val  | 3        | 3       |
 |Example  | 0        | 2       |
 
-## Message Type 2:  
+## Message Type 1: Select Mode
+
+|         |  Byte 1-2  |  Byte 3 |
+|---------|-----------|----------|
+|Var Name | msg_type  | mode     |
+|Var Type | uint16_t  | uint8_t  | 
+|Min Val  | 0         | 0        |
+|Max Val  | 3         | 1        |
+|Example  | 1         | 1        |
+
+## Message Type 2: Sensor RGB Data
 
 |         |  Byte 1-2  |  Byte 3 |
 |---------|-----------|----------|
@@ -30,7 +40,7 @@ title: API
 |Max Val  | 3         | 2        |
 |Example  | 2         | 1        |
 
-## Message Type 3 :   
+## Message Type 3: Path Selection
 
 |         |  Byte 1-2  | Byte 3 |
 |---------|------------|--------|
@@ -39,3 +49,4 @@ title: API
 |Min Val  | 0          | 0      |
 |Max Val  | 3          | 2      |
 |Example  | 2          | 2      |
+
