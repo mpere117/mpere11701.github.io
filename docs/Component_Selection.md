@@ -72,4 +72,16 @@ title: Component Selection
 
 
 
-\* The ESP32-S2 has multiple SPI interfaces, but some are for internal use
+| **Summary Components**                                                                                                                                                                                   |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![](static/First-One.png) <ul><li>Option 1 - ESP32-S3-WROOM-1</li><li>Price - $2.95</li><li>[Link](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639) </li></ul> |
+| ![](static/First-Vreg.png) <ul><li>Option 1 - LM3671MF-3.3/NOPB</li><li>Price - $1.56</li><li>[Link](https://www.digikey.com/en/products/detail/texas-instruments/LM3671MF-3-3-NOPB/1590062) </li></ul>  |
+
+## **Decision Making Process**
+* We chose the first one since we are the most familiar with the ESP32, along with the multiple GPIO pins it has which would be the largest along with the most UART pins needed for my personal subsytem of the internet connection to our product and mobile phones. The first one is the easiest to solder with it having 5 pins total comapred to the six of the second choice and eight plus bottom pad of the third choice, we also chose this one due to its advantages of lowest current of 600mA and a fixed voltage of 3.3 to not worry about going over the limit.
+
+## **Power Budget**
+![Power Budget](static/PowerBudget.png)
+
+# **Power Budget Conclusion**
+* From the Power Budget that I made earlier this semester, I have determined the range of power needed to power all I need to power would range from 3V to 5.5V that the voltage regulator would accept at a max voltage and for the ESP32 to accept at a max voltage. This meant that I had to use a 5V plug in to power all of my equipment or that I could use the default 5V usb plug in device to power and program the ESP32.
