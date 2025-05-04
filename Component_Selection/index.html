@@ -519,6 +519,27 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#decision-making-process" class="md-nav__link">
+    Decision Making Process
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#power-budget" class="md-nav__link">
+    Power Budget
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#power-budget-conclusion" class="md-nav__link">
+    Power Budget Conclusion
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -617,6 +638,27 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#decision-making-process" class="md-nav__link">
+    Decision Making Process
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#power-budget" class="md-nav__link">
+    Power Budget
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#power-budget-conclusion" class="md-nav__link">
+    Power Budget Conclusion
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -639,8 +681,6 @@
   
   
 
-
-  <h1>Component Selection</h1>
 
 <h2 id="table1-esp32"><strong>Table1. ESP32</strong></h2>
 <table>
@@ -882,7 +922,31 @@
 </tr>
 </tbody>
 </table>
-<p>* The ESP32-S2 has multiple SPI interfaces, but some are for internal use</p>
+<table>
+<thead>
+<tr>
+<th><strong>Summary Components</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="glightbox" href="../static/First-One.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../static/First-One.png" /></a> <ul><li>Option 1 - ESP32-S3-WROOM-1</li><li>Price - $2.95</li><li><a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639">Link</a> </li></ul></td>
+</tr>
+<tr>
+<td><a class="glightbox" href="../static/First-Vreg.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../static/First-Vreg.png" /></a> <ul><li>Option 1 - LM3671MF-3.3/NOPB</li><li>Price - $1.56</li><li><a href="https://www.digikey.com/en/products/detail/texas-instruments/LM3671MF-3-3-NOPB/1590062">Link</a> </li></ul></td>
+</tr>
+</tbody>
+</table>
+<h2 id="decision-making-process"><strong>Decision Making Process</strong></h2>
+<ul>
+<li>We chose the first one since we are the most familiar with the ESP32, along with the multiple GPIO pins it has which would be the largest along with the most UART pins needed for my personal subsytem of the internet connection to our product and mobile phones. The first one is the easiest to solder with it having 5 pins total comapred to the six of the second choice and eight plus bottom pad of the third choice, we also chose this one due to its advantages of lowest current of 600mA and a fixed voltage of 3.3 to not worry about going over the limit.</li>
+</ul>
+<h2 id="power-budget"><strong>Power Budget</strong></h2>
+<p><a class="glightbox" href="../static/PowerBudget.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Power Budget" src="../static/PowerBudget.png" /></a></p>
+<h1 id="power-budget-conclusion"><strong>Power Budget Conclusion</strong></h1>
+<ul>
+<li>From the Power Budget that I made earlier this semester, I have determined the range of power needed to power all I need to power would range from 3V to 5.5V that the voltage regulator would accept at a max voltage and for the ESP32 to accept at a max voltage. This meant that I had to use a 5V plug in to power all of my equipment or that I could use the default 5V usb plug in device to power and program the ESP32.</li>
+</ul>
 
 
 
