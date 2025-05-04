@@ -48,5 +48,8 @@ title: API
 |Var Type | uint16_t   | uint8_t|
 |Min Val  | 0          | 0      |
 |Max Val  | 3          | 2      |
-|Example  | 2          | 2      |
+|Example  | 3          | 2      |
 
+
+## **Team UML**
+![Team UML](folder1/Team201UML.drawio.png)
