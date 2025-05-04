@@ -92,6 +92,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#feedback" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -416,6 +421,17 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Block Diagram
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -425,6 +441,37 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#feedback" class="md-nav__link">
+    Feedback
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#decision-making-process" class="md-nav__link">
+    Decision Making Process
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -486,6 +533,28 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#feedback" class="md-nav__link">
+    Feedback
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#decision-making-process" class="md-nav__link">
+    Decision Making Process
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -510,6 +579,17 @@
   <h1>Block Diagram</h1>
 
 <p><a class="glightbox" href="../static/FBD2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../static/FBD2.png" /></a></p>
+<h2 id="feedback"><strong>Feedback</strong></h2>
+<ul>
+<li>Switching from using two UARTS for communication with each person and connection with MQTT server to using one single UART to make the communication work without complicating the code or process.</li>
+<li>Adding more switches for possible debugging tools for LED's, used to have one single push button and one LED, expecting to not use more than two LEDs and no more than three switches.</li>
+<li>Reccomended setup with daisy chain changed to meet requirements such as using channel 2 for board to board communication and using pin eight for GND and pin one for Power (VIN).</li>
+<li>Changing Power input from 9V to 5V with new power source.</li>
+</ul>
+<h2 id="decision-making-process"><strong>Decision Making Process</strong></h2>
+<ul>
+<li>I had developed these improvements based on the feedback I was given and with the newer solutions giving me some breathing room by removing some additional steps that weren't needed when I was working with the double UART system. When I removed the second UART, I was able to program it much easier since I would only need one to handle both communication with other boards along with communicating those messages across the MQTT. The other change that I made was adding more debugging tools to help with the debugging program by adding more lights and push buttons to allow for more versatility with testing messages being sent or telling how and if a message was received or passed.</li>
+</ul>
 
 
 
