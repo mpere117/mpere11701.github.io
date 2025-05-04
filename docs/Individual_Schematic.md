@@ -1,5 +1,5 @@
 ---
-title: Schematic/Power Budget
+title: Individual Schematic
 ---
 
 ## **HQTT Subsystem Schematic**
