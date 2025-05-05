@@ -21,7 +21,7 @@ title: Individual Schematic
 [Gerber Files](static/Gerber5.zip)
 
 ## **Team Final PCB Photos**
-* 
+![Team PCB](folder1/TeamBoard.png)
 
 ## **Functionality**
 * This schematic satisfies the condition of being able to communicate with my teammate's boards along with connecting to the ASU MQTT server in order to have messages sent from the MQTT explorer and passed around my teammate's through the daisy chain. The MQTT we initially designed to display a message that is passed, but that proved to be too difficult with the amount of time we had, so we offered to use the MQTT as a debugging tool or as a reset button controlled from a wireless connection rather than hitting the reset button on a teammate's board.
